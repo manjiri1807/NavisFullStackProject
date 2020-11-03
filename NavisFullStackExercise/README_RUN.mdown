@@ -1,0 +1,53 @@
+# Getting Started
+ 1. Unzip the package named <NavisAssignmentFinalShubham>
+ 2. Package content after unzip:
+         - client(folder)
+         - server(folder)
+         - DetailsModal.PNG
+         - Results.PNG
+         - Search.PNG
+         - README.md
+		 - README_RUN.md (which is to be followed for run instruction) 
+ 3. Environment setup for application.
+
+# Setup instructions for client 
+
+ # Setup instructions for Windows
+
+     1. Check Version for node.js v12.16.3 using `node -v` on windows command prompt.
+        if not download `https://nodejs.org/dist/v12.16.3/win-x64/node.exe` from here.
+     2. Check version for npm :
+	     `npm -v` on windows command prompt.
+     3. Install pnpm:
+	     `npm install -g pnpm` 
+     4. Install webpack version `4.40.0`:
+	     `pnpm i -g webpack@4.40.0`
+     5. change directory to client 
+	     `cd` to `client/` (the directory this file is in)
+     6. Install dependencies using 
+	     `make deps` if GNUWin32 installed,otherwise use `pnpmp i`.
+
+  ----------------------------------------------------------------------------------------------------------
+
+  
+# Setup instructions for server 
+    1. Check version for java jdk `8` using 
+	   `java --version` 
+	   on windows command prompt. otherwise install jdk 8
+    2. Check version for mvn using 
+	   `mvn -v` if not mvn command recognized
+       or install maven   
+   
+
+# Application Running client & Server
+# For Server 
+  1. Go to `Projet_direcory/server/target` and open command prompt on this location.          
+  2. Run the server using ```java -jar spring-boot-0.0.1-SNAPSHOT.jar```.
+# For client 
+   1. Go to `Projet_direcory/client` and open command prompt on this location.  
+   2. Run the webpack dev server using `webpack --config ./webpack.config.js --watch --progress`.
+   3. In a new command prompt, start the node server using `nodemon ./web-server/server.js` to serve the bundled assets.
+
+# On Chrome Browser 
+   1. Go to your browser & hit this url `http://localhost:8080/`.
+_______________________________________________________________________________________________________________

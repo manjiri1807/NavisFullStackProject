@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/FeaturedMovies Empty 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#1E2129",
+    }
+  }
+>
+  <div
+    className="FeaturedMovies-root"
+  />
+</div>
+`;
+
+exports[`Storyshots Components/FeaturedMovies With Movies 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#1E2129",
+    }
+  }
+>
+  <div
+    className="FeaturedMovies-root"
+  >
+    <div
+      className="MovieCard-root"
+      style={
+        Object {
+          "width": 267,
+        }
+      }
+    >
+      <div
+        className="MovieCard-clickable"
+        onClick={[Function]}
+      >
+        <img
+          alt="Movie 1 Poster"
+          className="MovieCard-poster"
+          src="/images/sample.jpg"
+          style={
+            Object {
+              "height": 396,
+              "width": 267,
+            }
+          }
+        />
+        <p
+          className="MuiTypography-root MovieCard-title MuiTypography-body1"
+        >
+          Movie 1
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1"
+        >
+          1919
+           (
+          G
+          )
+        </p>
+      </div>
+    </div>
+    <div
+      className="MovieCard-root"
+      style={
+        Object {
+          "width": 267,
+        }
+      }
+    >
+      <div
+        className="MovieCard-clickable"
+        onClick={[Function]}
+      >
+        <img
+          alt="Movie 2 Poster"
+          className="MovieCard-poster"
+          src="/images/sample.jpg"
+          style={
+            Object {
+              "height": 396,
+              "width": 267,
+            }
+          }
+        />
+        <p
+          className="MuiTypography-root MovieCard-title MuiTypography-body1"
+        >
+          Movie 2
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1"
+        >
+          2020
+           (
+          R
+          )
+        </p>
+      </div>
+    </div>
+    <div
+      className="MovieCard-root"
+      style={
+        Object {
+          "width": 267,
+        }
+      }
+    >
+      <div
+        className="MovieCard-clickable"
+        onClick={[Function]}
+      >
+        <img
+          alt="Movie 3 Poster"
+          className="MovieCard-poster"
+          src="/images/sample.jpg"
+          style={
+            Object {
+              "height": 396,
+              "width": 267,
+            }
+          }
+        />
+        <p
+          className="MuiTypography-root MovieCard-title MuiTypography-body1"
+        >
+          Movie 3
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1"
+        >
+          2050
+           (
+          Z
+          )
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/MovieCard Default 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#1E2129",
+      "padding": 50,
+    }
+  }
+>
+  <div
+    className="MovieCard-root"
+    style={
+      Object {
+        "width": 200,
+      }
+    }
+  >
+    <div
+      className="MovieCard-clickable"
+      onClick={[Function]}
+    >
+      <img
+        alt="Movie 1 Poster"
+        className="MovieCard-poster"
+        src="/images/sample.jpg"
+        style={
+          Object {
+            "height": 295,
+            "width": 200,
+          }
+        }
+      />
+      <p
+        className="MuiTypography-root MovieCard-title MuiTypography-body1"
+      >
+        Movie 1
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        1919
+         (
+        G
+        )
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/MovieCard Large 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#1E2129",
+      "padding": 50,
+    }
+  }
+>
+  <div
+    className="MovieCard-root"
+    style={
+      Object {
+        "width": 267,
+      }
+    }
+  >
+    <div
+      className="MovieCard-clickable"
+      onClick={[Function]}
+    >
+      <img
+        alt="Movie 1 Poster"
+        className="MovieCard-poster"
+        src="/images/sample.jpg"
+        style={
+          Object {
+            "height": 396,
+            "width": 267,
+          }
+        }
+      />
+      <p
+        className="MuiTypography-root MovieCard-title MuiTypography-body1"
+      >
+        Movie 1
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        1919
+         (
+        G
+        )
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/MovieCard Long Title 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#1E2129",
+      "padding": 50,
+    }
+  }
+>
+  <div
+    className="MovieCard-root"
+    style={
+      Object {
+        "width": 200,
+      }
+    }
+  >
+    <div
+      className="MovieCard-clickable"
+      onClick={[Function]}
+    >
+      <img
+        alt="Movie With a Very Long Title: Reloaded: Remastered: Refactored Poster"
+        className="MovieCard-poster"
+        src="/images/sample.jpg"
+        style={
+          Object {
+            "height": 295,
+            "width": 200,
+          }
+        }
+      />
+      <p
+        className="MuiTypography-root MovieCard-title MuiTypography-body1"
+      >
+        Movie With a Very Long Title: Reloaded: Remastered: Refactored
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        1919
+         (
+        G
+        )
+      </p>
+    </div>
+  </div>
+</div>
+`;
